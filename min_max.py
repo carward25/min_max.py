@@ -2,16 +2,20 @@
 #date: 10/12/2021
 #description: This program asks the user to enter how many numbers they'd like to input, then asks the user to enter each desired number. The program then gives the min and max values of the user input
 
-num_1 = int(input("How many integers would you like to enter?"))
-print("Please enter", num_1, "integers.")
-_min = int(input())
-_max = _min
-for i in range(1, num_1):
-    number = int(input())  
-    if number > _max:
-        _max = number
-    if number < _min:
-        _min = number
+N=int(input("How many integers would you like to enter?\n"))
+print("Please enter "+str(N)+" integers.")
+firstVal=0
 
-print("min: "+ _min)
-print("max: "+ _max)
+minVal=int(input())
+maxVal=0
+
+for i in range(0,N-1):
+x=int(input())
+if x<minVal:
+minVal=x;
+if x>maxVal:
+maxVal=x;
+
+
+print("min:",minVal)
+print("max:",maxVal)
