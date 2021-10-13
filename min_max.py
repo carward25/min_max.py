@@ -7,14 +7,14 @@
 
 num_1 = int(input("How many integers would you like to enter?"))
 print("Please enter", num_1, "integers.")
-min = int(input())
-max = min
+_min = int(input())
+_max = _min
 for i in range(1, num_1):
     number = int(input())  
-    if number > max:
-        max = number
+    if number > _max:
+        _max = number
     if number < min:
-        min = number
+        _min = number
 
-print("min: ", min)
-print("max: ", max)
+print("min: ", _min)
+print("max: ", _max)
