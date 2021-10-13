@@ -17,5 +17,5 @@ if x>maxVal:
 maxVal=x;
 
 
-print("min:",minVal)
-print("max:",maxVal)
+print("min: ",minVal)
+print("max: ",maxVal)
