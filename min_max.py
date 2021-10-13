@@ -19,3 +19,4 @@ maxVal=x;
 
 print("min:",minVal)
 print("max:",maxVal)
+ 
