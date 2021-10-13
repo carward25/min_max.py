@@ -13,7 +13,7 @@ for i in range(1, num_1):
     number = int(input())  
     if number > _max:
         _max = number
-    if number < min:
+    if number < _min:
         _min = number
 
 print("min: ", _min)
