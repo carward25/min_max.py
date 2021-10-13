@@ -1,5 +1,5 @@
 #name: Cassidy Ward
-#date: 10/12/2021
+#date: 10/13/2021
 #description: This program asks the user to enter how many numbers they'd like to input, then asks the user to enter each desired number. The program then gives the min and max values of the user input
 
 N=int(input("How many integers would you like to enter?\n"))
