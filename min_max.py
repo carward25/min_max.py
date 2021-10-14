@@ -9,7 +9,7 @@ firstVal=0
 
 minVal=int(input())
 maxVal=0
-#Loop through rest of the user inputs
+
 for i in range(0,N-1):
     x=int(input())
     if x<minVal:
@@ -17,6 +17,6 @@ for i in range(0,N-1):
     if x>maxVal:
         maxVal=x;
 
-#Print min and max values
+
 print("min:",minVal)
 print("max:",maxVal)
